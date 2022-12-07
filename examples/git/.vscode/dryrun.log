@@ -1,0 +1,18 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/apple/workspace/go/src/github.com/gedw99/fhir-tools/_template/git'
+echo ''
+echo 'Usage:'
+echo '  [33mmake(B[m [32m<target>(B[m'
+echo ''
+echo 'Targets:'
+awk '/^[a-zA-Z\-\_0-9]+:/ { \
+		helpMessage = match(lastLine, /^## (.*)/); \
+		if (helpMessage) { \
+			helpCommand = substr($1, 0, index($1, ":")-1); \
+			helpMessage = substr(lastLine, RSTART + 3, RLENGTH); \
+			printf "  [33m%-20s(B[m [32m%s(B[m\n", helpCommand, helpMessage; \
+		} \
+	} \
+	{ lastLine = $0 }'  makefile ../../../gio-make/help.mk ../../../gio-make/env.mk ../../../gio-make/git.mk ../../../gio-make/vscode.mk ../../../gio-make/go.mk ../../../gio-make/gio.mk ../../../gio-make/caddy.mk ../../../gio-make/fly.mk /Users/apple/workspace/go/src/github.com/gedw99/fhir-tools/_template/git/.env
+make: Leaving directory `/Users/apple/workspace/go/src/github.com/gedw99/fhir-tools/_template/git'
+ 

@@ -1,0 +1,6 @@
+new
+
+<<NEW_GIT_NAME>>
+
+GIT_NAME=<<NEW_GIT_NAME>>
+GIT_NAME=<<NEW_GIT_NAME>>

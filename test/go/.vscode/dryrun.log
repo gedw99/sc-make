@@ -1,0 +1,19 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/apple/workspace/go/src/github.com/gedw99/gio-make/test/go'
+echo
+echo --- ENV ---
+echo Deps:
+echo ENV_BIN: 					godotenv installed at : /Users/apple/workspace/go/bin/godotenv
+echo ENV_TREE_BIN: 			tree installed at : /Users/apple/workspace/go/bin/tree
+echo
+echo Override variables:
+echo ENV_SRC_TEMPLATES_FSPATH: /Users/apple/workspace/go/src/github.com/gedw99/gio-make/test/go/.templates/env
+echo ENV_SRC_FSPATH: 			/Users/apple/workspace/go/src/github.com/gedw99/gio-make/test/go/
+echo
+echo Computed variables:
+echo _ENV_SELF_DIR:			/Users/apple/workspace/go/src/github.com/gedw99/gio-make/test/go/../../
+echo _ENV_TEMPLATES_SOURCE: 	/Users/apple/workspace/go/src/github.com/gedw99/gio-make/test/go/../../templates/env
+echo _ENV_TEMPLATES_TARGET: 	/Users/apple/workspace/go/src/github.com/gedw99/gio-make/test/go/.templates/env
+echo
+make: Leaving directory `/Users/apple/workspace/go/src/github.com/gedw99/gio-make/test/go'
+ 

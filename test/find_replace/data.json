@@ -1,0 +1,1 @@
+[{"filetype":"makefile","replaces":[{"old":"\u003c\u003cGIT_NAME\u003e\u003e","new":"\u003c\u003cGIT_NEW_NAME\u003e\u003e"},{"old":"\u003c\u003cGIT_ORG\u003e\u003e","new":"\u003c\u003cGIT_NEW_ORG\u003e\u003e"},{"old":"\u003c\u003cGIT_SERVER\u003e\u003e","new":"\u003c\u003cGIT_NEW_SERVER\u003e\u003e"}]},{"filetype":".mk","replaces":[{"old":"old","new":"new"}]}]

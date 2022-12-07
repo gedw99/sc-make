@@ -1,0 +1,1582 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i386-apple-darwin11.3.0
+ 
+make: *** No rule to make target `all'.  Stop.
+ 
+
+# Make data base, printed on Sat Jan 15 11:56:37 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+AWS_SECRET_ACCESS_KEY = ***
+# makefile (from `makefile', line 32)
+GIO_SRC_FSPATH = $(REPO_FSPATH)/$(GIO_SRC_NAME)
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# makefile (from `../../../gio-make/gio.mk', line 41)
+GIO_BUILD_ANDROID_PATH = $(GIO_BUILD_FSPATH)/android/$(GIO_SRC_NAME).apk
+# environment
+LC_CTYPE = UTF-8
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+GRADLE_HOME = /usr/local/opt/gradle
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# makefile
+CURDIR := /Users/apple/workspace/go/src/github.com/gedw99/fhir-tools/_template/git
+# makefile (from `../../../gio-make/gio.mk', line 39)
+GIO_BUILD_IOS_PATH = $(GIO_BUILD_FSPATH)/ios/$(GIO_SRC_NAME).ipa
+# makefile
+SHELL = /bin/sh
+# makefile (from `../../../gio-make/go.mk', line 32)
+GO_BUILD_DARWIN_PATH = $(GO_BUILD_FSPATH)/darwin/$(GO_SRC_NAME)
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-gb","availableLanguages":{},"_languagePackSupport":true}
+# makefile (from `../../../gio-make/env.mk', line 10)
+ENV_TREE_BIN = tree
+# makefile (from `../../../gio-make/git.mk', line 6)
+GIT_BIN = git
+# makefile (from `../../../gio-make/git.mk', line 175)
+GIT_COMMENT = ?
+# environment
+_ = /usr/bin/make
+# makefile (from `../../../gio-make/gio.mk', line 37)
+GIO_BUILD_WINDOWS_PATH = $(GIO_BUILD_FSPATH)/windows/$(GIO_SRC_NAME).exe
+# environment
+QT_DIR = /Users/apple/Qt
+# makefile (from `../../../gio-make/help.mk', line 39)
+HELP_VAR_VALUE = var-value
+# environment
+GITHUB_TOKEN = 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
+# makefile (from `/Users/apple/workspace/go/src/github.com/gedw99/fhir-tools/_template/git/.env', line 1)
+MAKEFILE_LIST :=  makefile ../../../gio-make/help.mk ../../../gio-make/env.mk ../../../gio-make/git.mk ../../../gio-make/vscode.mk ../../../gio-make/go.mk ../../../gio-make/gio.mk ../../../gio-make/caddy.mk ../../../gio-make/fly.mk /Users/apple/workspace/go/src/github.com/gedw99/fhir-tools/_template/git/.env
+# makefile (from `../../../gio-make/go.mk', line 33)
+GO_BUILD_LINUX_PATH = $(GO_BUILD_FSPATH)/linux/$(GO_SRC_NAME)
+# environment
+GO111MODULE = on
+# makefile (from `/Users/apple/workspace/go/src/github.com/gedw99/fhir-tools/_template/git/.env', line 1)
+GIT_ORIGIN_USER = ~gedw99
+# makefile (from `makefile', line 34)
+CADDY_SRC_FSPATH = $(PWD)
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/services/extensions/node/extensionHostProcess
+# makefile (from `../../../gio-make/git.mk', line 31)
+GIT_REPO_UPSTREAM_NAME = $(GIT_REPO_PREFIX)-upstream
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+DIGITALOCEAN_ACCESS_TOKEN = b25e6a923b11e6a4f18abad9850462d8020d02447f5c9661b73bbc0d31710c7d
+# makefile (from `/Users/apple/workspace/go/src/github.com/gedw99/fhir-tools/_template/git/.env', line 3)
+GIT_SSH_USER = sourcehut-gedw99
+# environment
+__CFBundleIdentifier = com.microsoft.VSCode
+# makefile (from `../../../gio-make/vscode.mk', line 11)
+VSCODE_SRC_FSPATH = $(PWD)/
+# makefile (from `../../../gio-make/git.mk', line 30)
+GIT_REPO_ORIGIN_NAME = $(GIT_REPO_PREFIX)-origin
+# environment
+GITHUB_ACCOUNT = gedw99@gmail.com
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /var/folders/wp/ff6sz9qs6g71jnm12nj2kbyw0000gp/T/vscode-ipc-b76d734a-b80b-4473-9517-87bd7c449c27.sock
+# environment
+AWS_DEFAULT_REGION = ***
+# environment
+VSCODE_CWD = /Users/apple/workspace/go/src/github.com/gedw99/fhir-tools/_template/git
+# environment
+GOPROXY = https://proxy.golang.org,direct
+# makefile (from `../../../gio-make/gio.mk', line 45)
+_GIO_TEMPLATES_SOURCE = $(_GIO_SELF_DIR)templates/gio
+# makefile (from `../../../gio-make/caddy.mk', line 16)
+CADDY_SRC_TEMPLATES_FSPATH = $(PWD)/.templates/caddy
+# environment
+PATH = /usr/local/opt/go/libexec/bin:/Users/apple/.krew/bin:/Users/apple/.tiup/bin:/Users/apple/.cargo/bin:/Users/apple/google-cloud-sdk/bin:/usr/local/share/android-commandlinetools:/usr/local/opt/gradle/bin:/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/bin:/usr/local/opt/coreutils/libexec/gnubin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/TeX/texbin:/usr/local/go/bin:/usr/local/share/dotnet:/Library/Apple/usr/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Users/apple/.local/bin:/Users/apple/workspace:/Users/apple/workspace/go/bin:/Users/apple/workspace/flutter/bin:/Users/apple/.pub-cache/bin:/opt/yarn-[version]/bin:/usr/local/bin:/Users/apple/.local/bin
+# environment
+GOROOT = /usr/local/opt/go/libexec
+# makefile (from `../../../gio-make/git.mk', line 29)
+GIT_REPO_PREFIX = gitty
+# makefile (from `makefile', line 17)
+GIT_NAME = skel
+# makefile (from `/Users/apple/workspace/go/src/github.com/gedw99/fhir-tools/_template/git/.env', line 2)
+GIT_ORIGIN_EMAIL = gedw99@gmail.com
+# makefile (from `makefile', line 18)
+GIT_ORG = ~gioverse
+# environment
+LSCOLORS = Gxfxcxdxbxegedabagacad
+# makefile (from `makefile', line 4)
+MAKE_FSPATH = ./../../../gio-make
+# makefile (from `../../../gio-make/help.mk', line 38)
+HELP_VAR_NAME = var-name
+# makefile (from `../../../gio-make/gio.mk', line 44)
+_GIO_SELF_DIR := ../../../gio-make/
+# makefile (from `../../../gio-make/gio.mk', line 40)
+GIO_BUILD_IOS_SIM_PATH = $(GIO_BUILD_FSPATH)/ios-sim/$(GIO_SRC_NAME).app
+# environment
+GOPATH = /Users/apple/workspace/go
+# makefile (from `../../../gio-make/env.mk', line 7)
+ENV_BIN = godotenv
+# environment
+LaunchInstanceID = BFCCB8B3-2CD9-48B4-93CC-9BB7B6E7891E
+# makefile (from `makefile', line 28)
+GO_SRC_NAME = .
+# makefile (from `../../../gio-make/git.mk', line 35)
+GIT_SHA = $(shell cd $(GIT_REPO_FSPATH) && $(GIT_BIN) rev-parse --short HEAD)
+# environment
+VSCODE_LOG_STACK = false
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
+# makefile (from `../../../gio-make/env.mk', line 8)
+ENV_BIN_VERSION = latest
+# environment
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.B95pLWNcr0/Listeners
+# environment
+QT_VERSION = 5.9
+# automatic
+%F = $(notdir $%)
+# environment
+ANDROID_SDK_HOME = /usr/local/share/android-commandlinetools
+# makefile (from `../../../gio-make/env.mk', line 18)
+ENV_SRC_FSPATH = $(PWD)/
+# makefile (from `../../../gio-make/git.mk', line 7)
+GITTY_BIN = gitty
+# makefile (from `../../../gio-make/fly.mk', line 23)
+FLY_ACCESS_TOKEN = Q3m-KvWd9apo4HjSDCbTrZUxf86YurxUuzmNZnEQdoI
+# makefile (from `../../../gio-make/fly.mk', line 24)
+FLY_APP = ?123?
+# makefile (from `makefile', line 19)
+GIT_SERVER = git.sr.ht/$(GIT_ORG)/$(GIT_NAME)
+# environment
+VSCODE_PIPE_LOGGING = true
+# makefile (from `../../../gio-make/gio.mk', line 20)
+GIO_COMPILE_DAEMON = compile-daemon
+# makefile (from `../../../gio-make/gio.mk', line 46)
+_GIO_TEMPLATES_TARGET = $(GIO_SRC_TEMPLATES_FSPATH)
+# environment
+PWD = /Users/apple/workspace/go/src/github.com/gedw99/fhir-tools/_template/git
+# makefile (from `../../../gio-make/gio.mk', line 35)
+GIO_BUILD_FSPATH = $(GIO_SRC_FSPATH)/_giobuild
+# makefile (from `makefile', line 26)
+REPO_FSPATH = $(GIT_WORK_FSPATH)/$(GIT_NAME)
+# makefile (from `../../../gio-make/go.mk', line 9)
+GO_BIN = go
+# makefile (from `../../../gio-make/git.mk', line 21)
+GIT_REPO_FSPATH = $(GIT_WORK_FSPATH)/$(GIT_NAME)
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# makefile (from `../../../gio-make/help.mk', line 6)
+GREEN := [32m
+# environment
+GOMODCACHE = /Users/apple/workspace/go/pkg/mod
+# environment
+HOME = /Users/apple
+# makefile (from `../../../gio-make/vscode.mk', line 17)
+_VSCODE_TEMPLATES_SOURCE = $(_VSCODE_SELF_DIR)/templates/vscode
+# makefile (from `../../../gio-make/fly.mk', line 18)
+FLY_BIN_VERSION = v0.0.244
+# makefile (from `../../../gio-make/git.mk', line 36)
+GIT_TAG = $(shell cd $(GIT_REPO_FSPATH) && $(GIT_BIN) describe --tags --abbrev=0 --exact-match 2>/dev/null)
+# default
+MAKEFILEPATH := /Applications/Xcode.app/Contents/Developer/Makefiles
+# environment
+VSCODE_CLI = 1
+# environment
+VSCODE_CODE_CACHE_PATH = /Users/apple/Library/Application Support/Code/CachedData/899d46d82c4c95423fb7e10e68eba52050e30ba3
+# makefile (from `../../../gio-make/gio.mk', line 19)
+ 
+GIO_WEB_SERVER_BIN = file-server
+# environment
+LOGNAME = apple
+# makefile (from `../../../gio-make/gio.mk', line 168)
+GIO_PACK_DARWIN_NAME = $(GIO_BUILD_FSNAME)/mac/$(GIO_SRC_NAME).app
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+NVM_CD_FLAGS = -q
+# makefile (from `makefile', line 29)
+GO_SRC_FSPATH = $(REPO_FSPATH)/$(GO_SRC_NAME)
+# environment
+ZSH = /Users/apple/.oh-my-zsh
+# makefile (from `../../../gio-make/gio.mk', line 24)
+GIO_SRC_TEMPLATES_FSPATH = $(PWD)/.templates/gio
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# makefile (from `../../../gio-make/vscode.mk', line 16)
+_VSCODE_SELF_DIR := ../../../gio-make/
+# makefile (from `../../../gio-make/fly.mk', line 28)
+FLY_EX_PATH = FILEPATH?/$(FLY_EX_NAME)
+# environment
+XPC_FLAGS = 0x0
+# environment
+COLORTERM = truecolor
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+LC_TERMINAL = iTerm2
+# environment
+ANDROID_NDK_HOME = /usr/local/share/android-ndk
+# environment
+SHLVL = 3
+# makefile (from `../../../gio-make/gio.mk', line 38)
+GIO_BUILD_DARWIN_PATH = $(GIO_BUILD_FSPATH)/mac/$(GIO_SRC_NAME).app/Contents/MacOS/$(GIO_SRC_NAME)
+# makefile (from `../../../gio-make/help.mk', line 8)
+WHITE := [37m
+# environment
+FLUTTER_ROOT = /Users/apple/workspace/flutter
+# environment
+JAVA_HOME = /Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home
+# makefile (from `../../../gio-make/go.mk', line 31)
+GO_BUILD_WINDOWS_PATH = $(GO_BUILD_FSPATH)/windows/$(GO_SRC_NAME).exe
+# default
+MAKE_VERSION := 3.81
+# environment
+USER = apple
+# makefile
+.DEFAULT_GOAL := help
+# makefile (from `../../../gio-make/env.mk', line 25)
+_ENV_TEMPLATES_TARGET = $(ENV_SRC_TEMPLATES_FSPATH)
+# default
+MAKECMDGOALS := all
+# environment
+TERM_SESSION_ID = w1t6p0:8845B94D-3D82-403A-A26E-E433F32F9C06
+# makefile (from `../../../gio-make/gio.mk', line 31)
+GIO_BUILD_FSNAME = _giobuild
+# makefile (from `makefile', line 24)
+GIT_WORK_FSPATH = $(PWD)/$(GIT_REPO_UPSTREAM_NAME)
+# environment
+LESS = -R
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+AWS_ACCESS_KEY_ID = ***
+# makefile (from `../../../gio-make/caddy.mk', line 7)
+CADDY_BIN = caddy
+# makefile (from `../../../gio-make/vscode.mk', line 18)
+_VSCODE_TEMPLATES_TARGET = $(VSCODE_SRC_TEMPLATES_FSPATH)
+# default
+MAKE_COMMAND := /Applications/Xcode.app/Contents/Developer/usr/bin/make
+# makefile (from `../../../gio-make/gio.mk', line 167)
+GIO_PACK_DARWIN_FSPATH = $(GIO_BUILD_FSNAME)/mac/$(GIO_SRC_NAME)
+# environment
+TERM_PROGRAM = iTerm.app
+# default
+.VARIABLES := 
+# environment
+TMPDIR = /var/folders/wp/ff6sz9qs6g71jnm12nj2kbyw0000gp/T/
+# makefile (from `../../../gio-make/caddy.mk', line 8)
+CADDY_BIN_VERSION = v2.4.5
+# automatic
+*F = $(notdir $*)
+# makefile (from `../../../gio-make/go.mk', line 24)
+GO_OS = $(shell $(GO_BIN) env GOOS)
+# environment
+VSCODE_IPC_HOOK = /Users/apple/Library/Application Support/Code/1.63.2-main.sock
+# makefile (from `../../../gio-make/env.mk', line 24)
+_ENV_TEMPLATES_SOURCE = $(_ENV_SELF_DIR)templates/env
+# makefile (from `../../../gio-make/vscode.mk', line 9)
+VSCODE_SRC_TEMPLATES_FSPATH = $(PWD)/.templates/vscode
+# makefile
+MAKEFLAGS = Rrqp
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+TERM_PROGRAM_VERSION = 3.4.14
+# environment
+NVM_DIR = /Users/apple/.nvm
+# environment
+XPC_SERVICE_NAME = application.com.microsoft.VSCode.8809632626.8809632632.B6F01B21-BB2A-4FC9-A79A-ACCC8BD566D8
+# environment
+LC_TERMINAL_VERSION = 3.4.14
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# makefile (from `../../../gio-make/help.mk', line 7)
+YELLOW := [33m
+# automatic
++F = $(notdir $+)
+# makefile (from `../../../gio-make/help.mk', line 12)
+TARGET_MAX_CHAR_NUM = 20
+# environment
+ITERM_SESSION_ID = w1t6p0:8845B94D-3D82-403A-A26E-E433F32F9C06
+# makefile (from `../../../gio-make/git.mk', line 37)
+GIT_DIRTY = $(shell cd $(GIT_REPO_FSPATH) && test -n "`$(GIT_BIN) status --porcelain`" && echo "dirty" || echo "clean")
+# makefile (from `../../../gio-make/env.mk', line 23)
+_ENV_SELF_DIR := ../../../gio-make/
+# environment
+COLORFGBG = 7;0
+# environment
+AWS_ACCOUNT = joeblew99@gmail.com
+# environment
+__CF_USER_TEXT_ENCODING = 0x1F6:0x0:0x0
+# environment
+COMMAND_MODE = unix2003
+# default
+MAKEFILES := 
+# makefile (from `../../../gio-make/caddy.mk', line 24)
+_CADDY_TEMPLATES_SOURCE = $(_CADDY_SELF_DIR)/templates/caddy
+# automatic
+<F = $(notdir $<)
+# makefile (from `../../../gio-make/gio.mk', line 36)
+GIO_BUILD_WEB_PATH = $(GIO_BUILD_FSPATH)/web/$(GIO_SRC_NAME).web
+# environment
+ITERM_PROFILE = Default
+# makefile (from `makefile', line 31)
+GIO_SRC_NAME = example
+# makefile (from `../../../gio-make/help.mk', line 30)
+HELP_H1_NAME = name
+# makefile (from `../../../gio-make/fly.mk', line 27)
+FLY_EX_NAME = ?
+# environment
+PAGER = less
+# environment
+ANDROID_SDK_ROOT = /usr/local/share/android-commandlinetools
+# environment
+LC_ALL = C
+# makefile (from `../../../gio-make/help.mk', line 9)
+RESET := (B[m
+# makefile (from `makefile', line 20)
+GIT_BRANCH = main
+# environment
+SECURITYSESSIONID = 188ed
+# makefile (from `../../../gio-make/caddy.mk', line 10)
+CADDY_MKCERT_BIN = mkcert
+# automatic
+^F = $(notdir $^)
+# makefile (from `../../../gio-make/env.mk', line 11)
+ENV_TREE_BIN_VERSION = latest
+# makefile (from `../../../gio-make/go.mk', line 23)
+GO_ARCH = $(shell $(GO_BIN) env GOARCH)
+# default
+SUFFIXES := 
+# makefile (from `../../../gio-make/env.mk', line 16)
+ENV_SRC_TEMPLATES_FSPATH = $(PWD)/.templates/env
+# makefile (from `../../../gio-make/caddy.mk', line 11)
+CADDY_MKCERT_BIN_VERSION = v1.4.3
+# default
+.INCLUDE_DIRS = /usr/local/include
+# makefile (from `../../../gio-make/go.mk', line 13)
+GO_MOD_UPGRADE = go-mod-upgrade
+# environment
+MAKELEVEL := 0
+# makefile (from `../../../gio-make/vscode.mk', line 5)
+VSCODE_BIN = code
+# makefile (from `../../../gio-make/gio.mk', line 16)
+GIO_BIN = gogio
+# makefile (from `../../../gio-make/fly.mk', line 17)
+FLY_BIN = flyctl
+# environment
+LANG = C
+# environment
+TERM = xterm-256color
+# environment
+VSCODE_PID = 38940
+# makefile (from `../../../gio-make/help.mk', line 34)
+HELP_H2_NAME = name
+# makefile (from `../../../gio-make/gio.mk', line 17)
+GIO_BIN_VERSION = latest
+# makefile (from `../../../gio-make/caddy.mk', line 23)
+_CADDY_SELF_DIR := ../../../gio-make/
+# makefile (from `../../../gio-make/caddy.mk', line 25)
+_CADDY_TEMPLATES_TARGET = $(CADDY_SRC_TEMPLATES_FSPATH)
+# makefile (from `../../../gio-make/go.mk', line 29)
+GO_BUILD_FSPATH = $(GO_SRC_FSPATH)/_gobuild
+# environment
+NVM_RC_VERSION = 
+# variable set hash-table stats:
+# Load=193/1024=19%, Rehash=0, Collisions=22/293=8%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 16777220, inode 8808959842): 15 files, no impossibilities.
+
+# 15 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+gio-build:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `../../../gio-make/gio.mk', line 132):
+	cd $(GIO_SRC_FSPATH) && go generate ./...
+	# Always do Web
+	$(MAKE) gio-web-build
+	# TODO Switch based on platform
+	$(MAKE) gio-desk-mac-build
+	
+
+go-dep:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `../../../gio-make/go.mk', line 63):
+	@echo
+	@echo -- Installing go
+	# Not needed for development or CI.
+	#brew install go
+	@echo installed go at : $(shell which $(GO_BIN))
+	@echo
+	@echo -- Installing go-mod-upgrade
+	go install github.com/oligot/go-mod-upgrade@latest
+	@echo installed go-mod-upgrade at : $(shell which $(GO_MOD_UPGRADE))
+	
+
+# Not a target:
+../../../gio-make/git.mk:
+#  Implicit rule search has been done.
+#  Last modified 2022-01-04 16:08:08
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+help-h2:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `../../../gio-make/help.mk', line 36):
+	@echo '${YELLOW}## $(HELP_H2_NAME)${RESET}'
+	
+
+go-dep-beta: go-dep
+ 
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `../../../gio-make/go.mk', line 74):
+	@echo
+	@echo -- Installing go beta 
+	go install golang.org/dl/go1.18beta1@latest
+	go1.18beta1 download 
+	
+
+_git-open-config:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `../../../gio-make/git.mk', line 116):
+	code $(GIT_REPO_FSPATH)/.git/config
+	
+
+gio-web-run:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `../../../gio-make/gio.mk', line 153):
+	@echo "Deprecated. Use Caddy Instead"
+	exit 1
+	#cd $(GIO_SRC_FSPATH) && go generate ./...
+	#cd $(GIO_SRC_FSPATH)/$(GIO_BUILD_WEB_PATH) ?
+	
+
+# Not a target:
+all:
+#  Command-line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+gio-templates-dep:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `../../../gio-make/gio.mk', line 119):
+	@echo
+	@echo installing gio templates to your project....
+	mkdir -p $(_GIO_TEMPLATES_TARGET)
+	cp -r $(_GIO_TEMPLATES_SOURCE)/* $(_GIO_TEMPLATES_TARGET)/
+	@echo installed gio templates  at : $(_GIO_TEMPLATES_TARGET)
+	
+
+caddy-run:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `../../../gio-make/caddy.mk', line 98):
+	cd $(CADDY_SRC_FSPATH) && $(CADDY_BIN) fmt -overwrite
+	open https://localhost:8443
+	cd $(CADDY_SRC_FSPATH) && $(CADDY_BIN) run -watch
+	
+
+this-env-test:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 45):
+	# gets the env values
+	@echo 
+	@echo GIT_ORIGIN_USER:$(GIT_ORIGIN_USER)
+	@echo GIT_ORIGIN_EMAIL:$(GIT_ORIGIN_EMAIL)
+	@echo GIT_SSH_USER:$(GIT_SSH_USER)
+	
+
+this-print:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 37):
+	$(MAKE) env-print
+	$(MAKE) git-print
+	$(MAKE) go-print
+	$(MAKE) gio-print
+	$(MAKE) caddy-print
+	
+
+# Not a target:
+../../../gio-make/help.mk:
+#  Implicit rule search has been done.
+#  Last modified 2021-10-03 18:35:03
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+caddy-templates-print:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `../../../gio-make/caddy.mk', line 55):
+	@echo
+	@echo listing templates ...
+	cd $(_CADDY_TEMPLATES_SOURCE) && $(ENV_TREE_BIN) -a -C
+	
+
+git-dep:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `../../../gio-make/git.mk', line 70):
+	@echo
+	@echo -- Installing gitty
+	go install github.com/muesli/gitty@latest
+	@echo installed gitty at : $(shell which $(GITTY_BIN))
+	@echo
+	@echo -- Installing go-mod-upgrade
+	go install github.com/oligot/go-mod-upgrade@latest
+	@echo installed go-mod-upgrade at : $(shell which $(GO_MOD_UPGRADE))
+	
+
+gio-ios-print:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `../../../gio-make/gio.mk', line 216):
+	@echo GIO_BUILD_IOS_PATH: $(GIO_BUILD_IOS_PATH)
+	# TOOO: make this an ENV variable like "GIO_IOS_DEVICE_ID", that is checked for existing and then used. 
+	@echo IOS_DEVICE: $(shell idevice_id -l)
+	
+
+env-print:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `../../../gio-make/env.mk', line 31):
+	@echo
+	@echo --- ENV ---
+	@echo Deps:
+	@echo ENV_BIN: 					$(ENV_BIN) installed at : $(shell which $(ENV_BIN))
+	@echo ENV_TREE_BIN: 			$(ENV_TREE_BIN) installed at : $(shell which $(ENV_TREE_BIN))
+	@echo
+	@echo Override variables:
+	@echo ENV_SRC_TEMPLATES_FSPATH: $(ENV_SRC_TEMPLATES_FSPATH)
+	@echo ENV_SRC_FSPATH: 			$(ENV_SRC_FSPATH)
+	@echo
+	@echo Computed variables:
+	@echo _ENV_SELF_DIR:			$(_ENV_SELF_DIR)
+	@echo _ENV_TEMPLATES_SOURCE: 	$(_ENV_TEMPLATES_SOURCE)
+	@echo _ENV_TEMPLATES_TARGET: 	$(_ENV_TEMPLATES_TARGET)
+	@echo
+	
+
+git-pull-upstream:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `../../../gio-make/git.mk', line 165):
+	cd $(GIT_REPO_FSPATH) && $(GIT_BIN) fetch upstream
+	cd $(GIT_REPO_FSPATH) && $(GIT_BIN) merge upstream/$(GIT_BRANCH)
+	
+
+dep-os:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 58):
+	$(MAKE) env-dep
+	$(MAKE) go-dep
+	$(MAKE) gio-dep
+	$(MAKE) caddy-dep
+	$(MAKE) fly-dep
+	
+
+gio-ios-sim-install:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `../../../gio-make/gio.mk', line 241):
+	cd $(GIO_SRC_FSPATH) && xcrun simctl install booted $(GIO_BUILD_IOS_SIM_PATH)
+	
+
+gio-desk-mac-pack:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `../../../gio-make/gio.mk', line 172):
+	#go get github.com/JackMordaunt/gopack
+	go install git.sr.ht/~jackmordaunt/gopack/cmd/pack@latest
+	which pack
+	
+
+gio-desk-mac-watch:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `../../../gio-make/gio.mk', line 196):
+	$(GIO_COMPILE_DAEMON) -color -build="$(MAKE) gio-desk-mac-build" -command="$(MAKE) gio-desk-mac-runbuild"
+	
+
+caddy-mkcert-run:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `../../../gio-make/caddy.mk', line 90):
+	@echo
+	@echo installing mkcert certs
+	cd $(CADDY_SRC_FSPATH) && $(CADDY_MKCERT_BIN) -install
+	cd $(CADDY_SRC_FSPATH) && $(CADDY_MKCERT_BIN) localhost
+	@echo installed mkcert certs at : $(CADDY_SRC_FSPATH)
+	
+
+gio-ios-sim-build:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `../../../gio-make/gio.mk', line 233):
+	#exe and archive
+	# -work IF you want to see the xcode generated.
+	# make build dir
+	mkdir -p $(GIO_BUILD_FSPATH)/ios-sim/
+	cd $(GIO_SRC_FSPATH) && $(GIO_BIN) -work -appid gedw99.$(GIO_SRC_NAME) -buildmode exe -o $(GIO_BUILD_IOS_SIM_PATH) -target ios .
+	
+
+# Not a target:
+/Users/apple/workspace/go/src/github.com/gedw99/fhir-tools/_template/git/.env:
+#  Implicit rule search has been done.
+#  Last modified 2021-12-11 23:03:15
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+this-dep-upstream:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 55):
+	$(MAKE) git-repo-clone-upstream
+	
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+git-repo-clone-upstream:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `../../../gio-make/git.mk', line 96):
+	mkdir -p $(GIT_WORK_FSPATH)
+	cd $(GIT_WORK_FSPATH) && $(GIT_BIN) clone --recursive ssh://git@$(GIT_SERVER) -b $(GIT_BRANCH)
+	$(MAKE) _git-open-config
+	
+
+gio-windows-watch:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `../../../gio-make/gio.mk', line 210):
+	$(GIO_COMPILE_DAEMON) -color -build="$(MAKE) gio-windows-build" -command="$(MAKE) gio-windows-runbuild"
+	
+
+ 
+vscode-templates-dep:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `../../../gio-make/vscode.mk', line 56):
+	@echo
+	@echo installing vscode templates 
+	# copy templates up to working dir/templates
+	mkdir -p $(_VSCODE_TEMPLATES_TARGET)
+	cp -r $(_VSCODE_TEMPLATES_SOURCE)/* $(_VSCODE_TEMPLATES_TARGET)/
+	@echo installed vscode templates  at : $(_VSCODE_TEMPLATES_TARGET)
+	
+
+caddy-dep:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `../../../gio-make/caddy.mk', line 65):
+	@echo
+	@echo installing caddy tool
+	go install github.com/caddyserver/caddy/v2/cmd/caddy@$(CADDY_BIN_VERSION)
+	@echo installed gio [ $(CADDY_BIN_VERSION)   at : $(shell which $(CADDY_BIN))
+	@echo
+	@echo installing mkcert tool
+	go install filippo.io/mkcert@$(CADDY_MKCERT_BIN_VERSION)
+	@echo installed mkcert [ $(CADDY_MKCERT_BIN_VERSION) ] at : $(shell which $(CADDY_MKCERT_BIN))
+	$(MAKE) caddy-mkcert-run
+	$(MAKE) caddy-templates-dep
+	
+
+go-print:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `../../../gio-make/go.mk', line 39):
+	@echo 
+	@echo --- GO ---
+	@echo Deps:
+	@echo GO_BIN: $(GO_BIN) installed go at : $(shell which $(GO_BIN))
+	@echo GO_MOD_UPGRADE: $(GO_MOD_UPGRADE) installed go-mod-upgrade at : $(shell which $(GO_MOD_UPGRADE))
+	@echo
+	@echo Override variables:
+	@echo GO_SRC_NAME:				$(GO_SRC_NAME)
+	@echo GO_SRC_FSPATH:			$(GO_SRC_FSPATH)
+	@echo
+	@echo Constant variables:
+	@echo
+	@echo Computed variables:
+	@echo GO_ARCH:					$(GO_ARCH)
+	@echo GO_OS:					$(GO_OS)
+	@echo GO_BUILD_FSPATH:			$(GO_BUILD_FSPATH)
+	@echo GO_BUILD_WINDOWS_PATH:	$(GO_BUILD_WINDOWS_PATH)
+	@echo GO_BUILD_DARWIN_PATH:		$(GO_BUILD_DARWIN_PATH)
+	@echo GO_BUILD_LINUX_PATH:		$(GO_BUILD_LINUX_PATH)
+	@echo 
+	
+
+go-mod-tidy:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `../../../gio-make/go.mk', line 80):
+	@echo
+	@echo -- Visiting: $(GO_SRC_FSPATH)
+	cd $(GO_SRC_FSPATH) && go mod tidy
+	
+
+# Not a target:
+makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-01-04 02:16:19
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+gio-run:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `../../../gio-make/gio.mk', line 127):
+	# NOTE: Useful for Dev env
+	cd $(GIO_SRC_FSPATH) && go run .
+	
+
+gio-ios-install:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `../../../gio-make/gio.mk', line 228):
+	# see: https://www.systutorials.com/docs/linux/man/1-ideviceinstaller/
+	# idevice_id -l
+	cd $(GIO_SRC_FSPATH) && ideviceinstaller -i $(GIO_BUILD_IOS_PATH) --udid bdf90dc799709a013a25d0fc2df80e441df026f3
+	
+
+gio-desk-mac-pack-init:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `../../../gio-make/gio.mk', line 178):
+	# TODO: Needs mac sign & bundle creation including plist, icons
+	# //go:generate mkdir -p example.app/Contents/MacOS
+	# //go:generate go build -o example.app/Contents/MacOS/example
+	# //go:generate codesign -s - example.app
+	# TODO: Samue for Windows
+	cd $(GIO_SRC_FSPATH) && mkdir -p $(GIO_PACK_DARWIN_FSPATH).app/Contents/MacOS
+	cd $(GIO_SRC_FSPATH) && mkdir -p $(GIO_PACK_DARWIN_FSPATH).app/Contents/MacOS/$(GIO_SRC_NAME)
+	cd $(GIO_SRC_FSPATH) && mkdir -p $(GIO_PACK_DARWIN_FSPATH).app/Contents/MacOS/$(GIO_SRC_NAME)
+	
+
+fix:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 65):
+	
+
+gio-web-watch:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `../../../gio-make/gio.mk', line 160):
+	$(GIO_COMPILE_DAEMON) -color -build="$(MAKE) gio-web-build" -command="$(MAKE) gio-web-run"
+	
+
+# Not a target:
+../../../gio-make/env.mk:
+#  Implicit rule search has been done.
+#  Last modified 2021-12-11 14:23:14
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+gio-templates-print:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `../../../gio-make/gio.mk', line 83):
+	@echo
+	@echo listing templates ...
+	cd $(_GIO_TEMPLATES_SOURCE) && $(ENV_TREE_BIN) -a -C
+	
+
+gio-ios-build:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `../../../gio-make/gio.mk', line 220):
+	# -work IF you want to see the xcode generated.
+	# make build dir
+	mkdir -p $(GIO_BUILD_FSPATH)/ios
+	# FAILS: nope - needs a provioning profile.
+	cd $(GIO_SRC_FSPATH) && $(GIO_BIN) -work -appid gedw99.$(GIO_SRC_NAME) -buildmode exe -o $(GIO_BUILD_IOS_PATH) -target ios .
+	
+
+git-add:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `../../../gio-make/git.mk', line 171):
+	cd $(GIT_REPO_FSPATH) && $(GIT_BIN) add -A 
+	cd $(GIT_REPO_FSPATH) && $(GIT_BIN) status
+	
+
+# Not a target:
+../../../gio-make/gio.mk:
+#  Implicit rule search has been done.
+#  Last modified 2022-01-08 12:14:52
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+gio-windows-pack-init:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `../../../gio-make/gio.mk', line 203):
+	# TODO: needs to do what gio-desk-mac-pack-init does
+	
+
+gio-build-delete:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `../../../gio-make/gio.mk', line 142):
+	rm -rf $(GIO_BUILD_FSPATH)
+	
+
+git-print:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `../../../gio-make/git.mk', line 41):
+	@echo
+	@echo --- GIT ---
+	@echo Deps:
+	@echo GIT_BIN: 				Found $(GIT_BIN) at : $(shell which $(GIT_BIN))
+	@echo GITTY_BIN: 			Found $(GITTY_BIN) at : $(shell which $(GITTY_BIN))
+	@echo
+	@echo Override variables:
+	@echo GIT_NAME: 			$(GIT_NAME)
+	@echo GIT_ORG:				$(GIT_ORG)
+	@echo GIT_SERVER:			$(GIT_SERVER)
+	@echo GIT_BRANCH: 			$(GIT_BRANCH)
+	@echo GIT_WORK_FSPATH: 		$(GIT_WORK_FSPATH)
+	@echo GIT_REPO_FSPATH: 		$(GIT_REPO_FSPATH)
+	@echo GIT_ORIGIN_USER: 		$(GIT_ORIGIN_USER)
+	@echo GIT_ORIGIN_EMAIL: 	$(GIT_ORIGIN_EMAIL)
+	@echo GIT_SSH_USER: 		$(GIT_SSH_USER)
+	@echo
+	@echo Constant variables:
+	@echo GIT_REPO_PREFIX: 			$(GIT_REPO_PREFIX)
+	@echo GIT_REPO_ORIGIN_NAME: 	$(GIT_REPO_ORIGIN_NAME)
+	@echo GIT_REPO_UPSTREAM_NAME: 	$(GIT_REPO_UPSTREAM_NAME)
+	
+
+go-build-clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `../../../gio-make/go.mk', line 140):
+	cd $(GO_SRC_FSPATH) && rm -rf $(GO_BUILD_FSPATH)
+	
+
+help:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `../../../gio-make/help.mk', line 15):
+	@echo ''
+	@echo 'Usage:'
+	@echo '  ${YELLOW}make${RESET} ${GREEN}<target>${RESET}'
+	@echo ''
+	@echo 'Targets:'
+	@awk '/^[a-zA-Z\-\_0-9]+:/ { \
+	helpMessage = match(lastLine, /^## (.*)/); \
+	if (helpMessage) { \
+	helpCommand = substr($$1, 0, index($$1, ":")-1); \
+	helpMessage = substr(lastLine, RSTART + 3, RLENGTH); \
+	printf "  ${YELLOW}%-$(TARGET_MAX_CHAR_NUM)s${RESET} ${GREEN}%s${RESET}\n", helpCommand, helpMessage; \
+	} \
+	} \
+	{ lastLine = $$0 }' $(MAKEFILE_LIST)
+	
+
+git-repo-delete:
+ 
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `../../../gio-make/git.mk', line 103):
+	rm -rf $(GIT_WORK_FSPATH)
+	
+
+env-templates-dep:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `../../../gio-make/env.mk', line 70):
+	@echo
+	@echo installing env templates to your project....
+	mkdir -p $(_ENV_TEMPLATES_TARGET)
+	cp -r $(_ENV_TEMPLATES_SOURCE)/* $(_ENV_TEMPLATES_TARGET)/
+	@echo installed env templates  at : $(_ENV_TEMPLATES_TARGET)
+	
+
+git-push-origin:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `../../../gio-make/git.mk', line 182):
+	cd $(GIT_REPO_FSPATH) && $(GIT_BIN) push origin $(GIT_BRANCH)
+	
+
+go-build:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `../../../gio-make/go.mk', line 99):
+	cd $(GO_SRC_FSPATH) && $(GO_BIN) generate ./...
+	# switch for OS
+	@echo
+	@echo check OS your building on:
+	@echo GO_OS: $(GO_OS)
+	cd $(GO_SRC_FSPATH) && $(GO_BIN) build -o $(GO_BUILD_DARWIN_PATH) .
+	
+
+vscode-run:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `../../../gio-make/vscode.mk', line 66):
+	# opens the project, so you can debug it, etc
+	code $(VSCODE_SRC_FSPATH)
+	
+
+gio-dep:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `../../../gio-make/gio.mk', line 89):
+	@echo
+	@echo -- Installing gogio tool
+	# https://git.sr.ht/~eliasnaur/gio
+	go install gioui.org/cmd/gogio@$(GIO_BIN_VERSION)
+	@echo installed gio [ $(GIO_BIN_VERSION) ] at : $(shell which $(GIO_BIN))
+	@echo installing gio templates 
+	# copy templates up to working dir/templates
+	mkdir -p $(_GIO_TEMPLATES_TARGET)
+	cp -r $(_GIO_TEMPLATES_SOURCE)/* $(_GIO_TEMPLATES_TARGET)/
+	@echo installed caddy templates  at : $(_GIO_TEMPLATES_TARGET)
+	# FileServer
+	#@echo
+	#@echo -- Installing FileServer
+	#@echo $(PWD)
+	#cd tools/file-server && go install .
+	#@echo installed FileServer at : $(shell which $(GIO_COMPILE_DAEMON))
+	# CompileDaemon
+	#@echo
+	#@echo -- Installing CompileDaemon
+	#go install github.com/githubnemo/CompileDaemon@latest
+	#@echo installed CompileDaemon at : $(shell which $(GIO_COMPILE_DAEMON))
+	$(MAKE) gio-templates-dep
+	
+
+mod-tidy:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 69):
+	cd $(REPO_FSPATH) && go mod tidy
+	
+
+vscode-templates-print:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `../../../gio-make/vscode.mk', line 41):
+	@echo
+	@echo listing templates ...
+	cd $(_VSCODE_TEMPLATES_SOURCE) && $(ENV_TREE_BIN) -a -C
+	
+
+gio-desk-mac-buildrun:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `../../../gio-make/gio.mk', line 192):
+	cd $(GIO_SRC_FSPATH) && $(GIO_BUILD_DARWIN_PATH)
+	
+
+build-ios-sim:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 78):
+	$(MAKE) gio-ios-sim-build
+	$(MAKE) gio-ios-sim-install
+	
+
+caddy-print:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `../../../gio-make/caddy.mk', line 31):
+	@echo
+	@echo --- CADDY ---
+	@echo Deps:
+	@echo CADDY_BIN: 					$(CADDY_BIN) installed caddy at : $(shell which $(CADDY_BIN))
+	@echo CADDY_BIN_VERSION: 			$(CADDY_BIN_VERSION)
+	@echo CADDY_MKCERT_BIN: 			$(CADDY_MKCERT_BIN) installed mkcert at : $(shell which $(CADDY_MKCERT_BIN))
+	@echo CADDY_MKCERT_BIN_VERSION: 	$(CADDY_MKCERT_BIN_VERSION)
+	@echo
+	@echo Override variables:
+	@echo CADDY_SRC_FSPATH: 			$(CADDY_SRC_FSPATH)
+	@echo CADDY_BIN_VERSION: 			$(CADDY_BIN_VERSION)
+	@echo
+	@echo Computed variables:
+	@echo _CADDY_SELF_DIR:			$(_CADDY_SELF_DIR)
+	@echo _CADDY_TEMPLATES_SOURCE: 	$(_CADDY_TEMPLATES_SOURCE)
+	@echo _CADDY_TEMPLATES_TARGET: 	$(_CADDY_TEMPLATES_TARGET)
+	@echo
+	
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+gio-desk-mac-build:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `../../../gio-make/gio.mk', line 189):
+	cd $(GIO_SRC_FSPATH) && go generate .
+	cd $(GIO_SRC_FSPATH) && go build -o $(GIO_BUILD_DARWIN_PATH) .
+	
+
+go-mod-upgrade:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `../../../gio-make/go.mk', line 86):
+	# See: https://github.com/shanna/entxid-test/blob/master/Makefile#L19
+	@echo
+	@echo -- Visiting:		$(GO_SRC_FSPATH)
+	cd $(GO_SRC_FSPATH) && go-mod-upgrade
+	cd $(GO_SRC_FSPATH) && $(GO_BIN) mod tidy
+	cd $(GO_SRC_FSPATH) && $(GO_BIN) mod verify
+	
+
+git-repo-clone-origin-post:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `../../../gio-make/git.mk', line 107):
+	# update the .git/config with upstream info so you can easily sync upstream
+	#cd $(PWD)/$(GIT_NAME) && $(GIT_BIN) remote add upstream ssh://git@github.com:$(GIT_ORG)/$(GIT_NAME).git 
+	cd $(GIT_REPO_FSPATH) && $(GIT_BIN) remote add upstream git@github.com:$(GIT_ORG)/$(GIT_NAME).git 
+	# update user and user email
+	cd $(GIT_REPO_FSPATH) && $(GIT_BIN) config user.name $(GIT_ORIGIN_USER)
+	cd $(GIT_REPO_FSPATH) && $(GIT_BIN) config user.email $(GIT_ORIGIN_EMAIL)
+	
+
+# Not a target:
+../../../gio-make/vscode.mk:
+#  Implicit rule search has been done.
+#  Last modified 2021-12-11 12:35:06
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+fly-dep:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `../../../gio-make/fly.mk', line 50):
+	@echo
+	@echo installing FLY tool
+	brew install superfly/tap/flyctl
+	@echo installed fly at : $(shell which $(FLY_BIN))
+	# does not work: https://github.com/superfly/flyctl/issues/538
+	#go install github.com/superfly/flyctl@$(FLY_BIN_VERSION)
+	# requires adding to path and i am lazy
+	#curl -L https://fly.io/install.sh | sh
+	
+
+build-web:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 76):
+	$(MAKE) gio-web-build
+	
+
+gio-windows-runbuild:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `../../../gio-make/gio.mk', line 208):
+	cd $(GIO_SRC_FSPATH) && $(GIO_BUILD_WINDOWS_PATH)
+	
+
+gio-windows-build:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `../../../gio-make/gio.mk', line 205):
+	# BUG: component_windows_amd64.syso does not respect the -o path.
+	cd $(GIO_SRC_FSPATH) && $(GIO_BIN) -o $(GIO_BUILD_WINDOWS_PATH) -target windows .
+	
+
+# Not a target:
+../../../gio-make/caddy.mk:
+#  Implicit rule search has been done.
+#  Last modified 2022-01-08 11:36:22
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+vscode-dep:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `../../../gio-make/vscode.mk', line 47):
+	@echo
+	@echo installing vscode
+	#brew install brew install --cask visual-studio-code
+	@echo installed gio at : $(shell which $(VSCODE_BIN))
+	$(MAKE) vscode-templates-dep
+	
+
+env-run:
+ 
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `../../../gio-make/env.mk', line 92):
+	$(ENV_BIN) -f $(ENV_SRC_FSPATH)
+	
+
+git-version-print:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `../../../gio-make/git.mk', line 148):
+	@echo
+	@echo --- GIT version ---
+	@echo GIT_SHA: 				$(GIT_SHA)
+	@echo GIT_TAG: 				$(GIT_TAG)
+	@echo GIT_DIRTY: 			$(GIT_DIRTY)
+	@echo
+	
+
+git-commit:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `../../../gio-make/git.mk', line 177):
+	cd $(GIT_REPO_FSPATH) && $(GIT_BIN) commit -m '$(GIT_COMMENT)'
+	cd $(GIT_REPO_FSPATH) && $(GIT_BIN) status
+	
+
+# Not a target:
+../../../gio-make/go.mk:
+#  Implicit rule search has been done.
+#  Last modified 2022-01-08 12:13:51
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+gio-web-build:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `../../../gio-make/gio.mk', line 149):
+	cd $(GIO_SRC_FSPATH) && $(GIO_BIN) -o $(GIO_BUILD_WEB_PATH) -target js .
+	
+
+env-templates-print:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `../../../gio-make/env.mk', line 49):
+	@echo
+	@echo listing templates ...
+	cd $(_ENV_TEMPLATES_SOURCE) && $(ENV_TREE_BIN) -a -C
+	
+
+gio-and-install:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `../../../gio-make/gio.mk', line 250):
+	cd $(GIO_SRC_FSPATH) && adb install $(GIO_SRC_NAME).apk
+	
+
+gio-print:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `../../../gio-make/gio.mk', line 50):
+	@echo
+	@echo --- GIO ---
+	@echo Deps:
+	@echo GIO_BIN: 					$(GIO_BIN) installed gio at : $(shell which $(GIO_BIN))
+	@echo GIO_WEB_SERVER_BIN: 		$(GIO_WEB_SERVER_BIN) installed web runner at : $(shell which $(GIO_WEB_SERVER_BIN))
+	@echo GIO_COMPILE_DAEMON: 		$(GIO_COMPILE_DAEMON) installed compile-daemon at : $(shell which $(GIO_COMPILE_DAEMON))
+	@echo
+	@echo Override variables:
+	@echo GIO_SRC_FSPATH: 			$(GIO_SRC_FSPATH)
+	@echo GIO_SRC_NAME: 			$(GIO_SRC_NAME)
+	@echo
+	@echo Constant variables:
+	@echo GIO_BUILD_FSNAME: 		$(GIO_BUILD_FSNAME)
+	@echo _GIO_TEMPLATE_FILE_SERVER_DEBUG:	$(_GIO_TEMPLATE_FILE_SERVER_DEBUG)
+	@echo - runs a basic darwin app
+	@echo
+	@echo Computed variables:
+	@echo GIO_BUILD_FSPATH: 		$(GIO_BUILD_FSPATH)
+	@echo GIO_BUILD_WEB_PATH: 		$(GIO_BUILD_WEB_PATH)
+	@echo GIO_BUILD_WINDOWS_PATH: 	$(GIO_BUILD_WINDOWS_PATH)
+	@echo GIO_BUILD_DARWIN_PATH: 	$(GIO_BUILD_DARWIN_PATH)
+	@echo GIO_BUILD_IOS_PATH: 		$(GIO_BUILD_IOS_PATH)
+	@echo GIO_BUILD_IOS_SIM_PATH: 	$(GIO_BUILD_IOS_SIM_PATH)
+	@echo GIO_BUILD_ANDROID_PATH: 	$(GIO_BUILD_ANDROID_PATH)
+	@echo
+	@echo _GIO_SELF_DIR:			$(_GIO_SELF_DIR)
+	@echo _GIO_TEMPLATES_SOURCE: 	$(_GIO_TEMPLATES_SOURCE)
+	@echo _GIO_TEMPLATES_TARGET: 	$(_GIO_TEMPLATES_TARGET)
+	@echo
+	
+
+gio-and-build:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `../../../gio-make/gio.mk', line 248):
+	cd $(GIO_SRC_FSPATH) && $(GIO_BIN) -o $(GIO_SRC_NAME).apk -target android .
+	
+
+deploy:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 83):
+	# TODO get fly working.
+	
+
+go-run:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `../../../gio-make/go.mk', line 95):
+	cd $(GO_SRC_FSPATH) && $(GO_BIN) run .
+	
+
+git-pull-origin:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `../../../gio-make/git.mk', line 159):
+	cd $(GIT_REPO_FSPATH) && $(GIT_BIN) fetch origin
+	cd $(GIT_REPO_FSPATH) && $(GIT_BIN) merge origin/$(GIT_BRANCH)
+	
+
+help-h1:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `../../../gio-make/help.mk', line 32):
+	@echo '${WHITE}# $(HELP_H1_NAME)${RESET}'
+	
+
+caddy-templates-dep:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `../../../gio-make/caddy.mk', line 81):
+	@echo
+	@echo installing caddy templates to your project....
+	mkdir -p $(_CADDY_TEMPLATES_TARGET)
+	cp -r $(_CADDY_TEMPLATES_SOURCE)/* $(_CADDY_TEMPLATES_TARGET)/
+	@echo installed caddy templates  at : $(_CADDY_TEMPLATES_TARGET)
+	
+
+git-status-print:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `../../../gio-make/git.mk', line 123):
+	@echo
+	@echo -- GIT BRANCH:
+	@cd $(GIT_REPO_FSPATH) && $(GIT_BIN) branch --show-current
+	@echo
+	@echo
+	@echo -- GIT REMOTES:
+	@cd $(GIT_REPO_FSPATH) && $(GIT_BIN) remote -v
+	@echo
+	@echo
+	@echo --- GIT STATUS:
+	cd $(GIT_REPO_FSPATH) && git status
+	@echo
+	@echo
+	@echo --- GITTY STATUS:
+	@echo Tells you the remote status
+	cd $(GIT_REPO_FSPATH) && $(GITTY_BIN) 
+	@echo
+	
+
+help-var:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `../../../gio-make/help.mk', line 41):
+	@echo '  ${YELLOW}$(HELP_VAR_NAME)${RESET} ${GREEN}$(HELP_VAR_VALUE)${RESET}'
+	
+
+serve:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 81):
+	$(MAKE) caddy-run
+	
+
+env-test:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `../../../gio-make/env.mk', line 78):
+	# unit test that tests the standard templates
+	@echo tree listing:
+	$(ENV_TREE_BIN) -a $(_ENV_TEMPLATES_SOURCE)/git
+	@echo parsing: 
+	$(ENV_BIN) -f $(_ENV_TEMPLATES_SOURCE)/git/.env
+	@echo 
+	@echo found variables in .env files:
+	@echo $(GIT_ORIGIN_USER)
+	
+
+env-dep:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `../../../gio-make/env.mk', line 57):
+	@echo
+	@echo installing godotenv tool
+	go install github.com/joho/godotenv/cmd/godotenv@$(ENV_BIN_VERSION)
+	@echo installed godotenv [ $(ENV_BIN_VERSION) ] at : $(shell which $(ENV_BIN))
+	@echo
+	@echo installing tree tool
+	go install github.com/a8m/tree/cmd/tree@$(ENV_TREE_BIN_VERSION)
+	@echo installed tree [ $(ENV_TREE_BIN_VERSION) ] at : $(shell which $(ENV_TREE_BIN))
+	$(MAKE) env-templates-dep
+	
+
+this-dep-origin:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 53):
+	$(MAKE) git-repo-clone-origin
+	
+
+gio-desk-mac-runpacked:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `../../../gio-make/gio.mk', line 194):
+	cd $(GIO_SRC_FSPATH) && open $(GIO_PACK_DARWIN_NAME)
+	
+
+git-repo-clone-origin:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `../../../gio-make/git.mk', line 85):
+	# works :)
+	# assuming you have forked upstream
+	mkdir -p $(GIT_WORK_FSPATH)
+	cd $(GIT_WORK_FSPATH) && $(GIT_BIN) clone --recursive git@$(GIT_SSH_USER):$(GIT_ORIGIN_USER)/$(GIT_NAME) -b $(GIT_BRANCH)
+	$(MAKE) git-repo-clone-origin-post
+	$(MAKE) _git-open-config
+	
+
+build-desk:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 72):
+	$(MAKE) gio-desk-mac-build
+ 
+	#open $(GIO_BUILD_FSPATH)
+	open $(GIO_BUILD_DARWIN_PATH) 
+	
+
+# Not a target:
+../../../gio-make/fly.mk:
+#  Implicit rule search has been done.
+#  Last modified 2021-09-30 12:45:32
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+mod-upgrade:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 67):
+	$(MAKE) go-mod-upgrade
+	
+
+vscode-print:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `../../../gio-make/vscode.mk', line 22):
+	@echo
+	@echo --- VSCODE ---
+	@echo Deps:
+	@echo VSCODE_BIN: 						$(VSCODE_BIN) installed at : $(shell which $(VSCODE_BIN))
+	@echo VSCODE_BIN_VERSION: 				$(VSCODE_BIN) version at : $(shell $(VSCODE_BIN) --version)
+	@echo
+	@echo Override variables:
+	@echo VSCODE_SRC_TEMPLATES_FSPATH: 		$(VSCODE_SRC_TEMPLATES_FSPATH)
+	@echo VSCODE_SRC_FSPATH: 				$(VSCODE_SRC_FSPATH)
+	@echo
+	@echo Computed variables:
+	@echo _VSCODE_SELF_DIR:					$(_VSCODE_SELF_DIR)
+	@echo _VSCODE_TEMPLATES_SOURCE: 		$(_VSCODE_TEMPLATES_SOURCE)
+	@echo _VSCODE_TEMPLATES_TARGET: 		$(_VSCODE_TEMPLATES_TARGET)
+	@echo
+	
+
+fly-print:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `../../../gio-make/fly.mk', line 34):
+	@echo
+	@echo ### FLY ###
+	@echo FLY_BIN: $(FLY_BIN)
+	@echo FLY_BIN: $(FLY_BIN_VERSION)
+	@echo installed fly at : $(shell which $(FLY_BIN))
+	@echo ---
+	@echo
+	@echo FLY_ACCESS_TOKEN: $(FLY_ACCESS_TOKEN)
+	@echo FLY_APP: $(FLY_APP)
+	@echo FLY_EX_PATH: $(FLY_EX_PATH)
+	@echo FLY_EX_NAME: $(FLY_EX_NAME)
+	@echo
+	
+
+go-buildrun: go-build
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `../../../gio-make/go.mk', line 120):
+	# switch for OS
+	@echo
+	@echo check OS your running on:
+	@echo GO_OS: $(GO_OS)
+	# open in a new terminal, so we can run many programs.
+	open $(GO_BUILD_DARWIN_PATH)
+	
+
+# files hash-table stats:
+# Load=99/1024=10%, Rehash=0, Collisions=9/122=7%
+# VPATH Search Paths
+
+# No `vpath' search paths.
+
+# No general (`VPATH' variable) search path.
+
+# # of strings in strcache: 10
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 3804 / max = 3804 / min = 3804 / avg = 3804
+
+# Finished Make data base on Sat Jan 15 11:56:37 2022
+
+ 

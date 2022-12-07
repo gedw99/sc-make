@@ -1,0 +1,7 @@
+old
+
+<<NEW_GIT_NAME>>
+
+<<NEW_GIT_NAME>>
+
+<<NEW_GIT_NAME>>

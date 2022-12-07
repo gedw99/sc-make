@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"tile": "root",
+			"path": "./"
+		},
+		{
+			"tile": "soft-code",
+			"path": "./soft-serve/"
+		}
+		{
+			"tile": "charm-code",
+			"path": "./charm/"
+		}
+		{
+			"tile": "glow-code",
+			"path": "./glow/"
+		}
+	],
+	"settings": {
+		"makefile.extensionOutputFolder": "./.vscode"
+	}
+}
