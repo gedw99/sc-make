@@ -1,4 +1,4 @@
-# GIO-MAKE
+# SC-MAKE
 
 TODO: move examples into here...
 
@@ -9,14 +9,15 @@ it has:
 - golang
 - gio
 - caddy
+- and many more...
 
-## Install 
+## Install
 
-Compile golang bin into binary called **gio-make**.
+Compile golang bin into binary called **sc-make**.
 
 The following commands are available.
 
-**gio-make-clone**
+**sc-make-clone**
 
 ```gio-make-clone --urlhttps://github.com/sebastianpacurar/gioui-experiment --mode single``` 
 
@@ -29,6 +30,7 @@ Clones a github repo and setups up the make configuration.
   - multi.
 
 logic:
+
 - need the makefile to be a template, so we can modify it at runtime.
   - pull from github or embedded ? embedded is best.
   - so get embedding working.
@@ -71,7 +73,7 @@ env variables driving things uses dotenv, and github secrets. See TOOD....
 
 ## Install
 
-go install github.com/gedw99/gio-make
+go install github.com/gedw99/sc-make
 
 this has all the mame files and templates embeded.
 
@@ -92,10 +94,10 @@ These makefile follow certain conventions to:
 
 ## Examples
 
-Various example are in. https://github.com/gedw99/gio-make-examples
+Various example are in. https://github.com/gedw99/sc-make-examples
 
 GIO
-- https://github.com/gedw99/gio-make-examples/gioui__gio-example
+- https://github.com/gedw99/sc-make-examples/gioui__gio-example
 
 
 ## Conventions
