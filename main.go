@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/gedw99/gio-make/cmd"
+	"github.com/gedw99/sc-make/cmd"
 )
 
 func main() {

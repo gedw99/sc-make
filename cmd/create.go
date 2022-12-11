@@ -20,7 +20,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/gedw99/gio-make/assets"
+	"github.com/gedw99/sc-make/assets"
 	"github.com/spf13/cobra"
 
 	"github.com/FalcoSuessgott/gitget/repo"

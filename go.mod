@@ -1,4 +1,4 @@
-module github.com/gedw99/gio-make
+module github.com/gedw99/sc-make
 
 go 1.19
 

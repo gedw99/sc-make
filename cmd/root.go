@@ -9,11 +9,11 @@ var ()
 
 // rootCmd represents the base command when called without any subcommands.
 var rootCmd = &cobra.Command{
-	Use:     "gio-make",
+	Use:     "sc-make",
 	Version: "v",
-	Short:   "A powerful CLI for the GIOUI project",
+	Short:   "A powerful CLI for the SC project",
 	Long: `
-A powerful CLI for the GIOUI project.
+A powerful CLI for the SC project.
 
 Create a new production-ready project with backend (Golang), 
 frontend (Golang) and deploy automation 
@@ -22,7 +22,7 @@ frontend (Golang) and deploy automation
 -> Focus on writing code and thinking of business logic!
 <- The GIO-make CLI will take care of the rest.
 
-A helpful documentation and next steps -> https://github.com/gedw99/gio-make/`,
+A helpful documentation and next steps -> https://github.com/gedw99/sc-make/`,
 }
 
 func init() {

@@ -1,9 +1,9 @@
 package pkg
 
 import (
-	//"github.com/gedw99/gio-make"
+	//"github.com/gedw99/sc-make"
 
-	_ "github.com/gedw99/gio-make"
+	_ "github.com/gedw99/sc-make"
 )
 
 func GetAllFilenames() (out []string, err error) {
